@@ -60,7 +60,7 @@ class Calculator {
       case "sin":
         computation = Math.sin((prev * Math.PI) / current);
         break;
-      case "tan":
+      case "log":
         computation = Math.log(current) / Math.log(prev);
         break;
       default:
